@@ -1,0 +1,282 @@
+html{
+    overflow-x: hidden; 
+}
+
+/* -------- headlings styling ---------- */
+
+.carousel-caption h2::after{
+    content: "X";
+    position: relative;
+    display: block;
+    text-shadow: none;
+    color: transparent;
+    border-bottom: 1px solid #00e0d0;
+    width: 50px;
+    margin: auto;
+    bottom: 15px;
+    padding-top: 10px; 
+}
+
+h3.title {
+    text-align: center;
+    font-family: myriad pro;
+    margin-top: 70px;
+}
+h5{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+h2.Our.story {
+    margin-top: 70px;
+}
+/* -------- End headlings styling ---------- */
+
+
+
+
+
+/* --------- Grid styling ---------- */
+.col-md-4 {
+    text-align: center;
+    font-family: myriad pro;
+    font-size: 14px;
+    width: 13px;
+    .mini-title {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+}
+.our.story.col-xs-7 {
+    margin-top: 70px;
+}
+.teams.col-md-3 {
+    padding-left: 35px;
+    margin-right: inherit;
+    margin-top: 20px;
+}
+
+/* ---------End Grid styling ---------- */
+
+
+
+
+
+/* ---------- lists styling ---------- */
+ol.carousel-indicators {
+    margin-bottom: 50px;
+}
+
+
+ul.nav.nav-tabs {
+    position: absolute;
+    z-index: 8;
+    border: none;
+    margin-left: 460px;
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: Myriad Pro Regular ,  sans-serif;
+    :hover {
+        border: none;
+        color: #00e0d0;
+        background-color: transparent;
+    }
+
+    &>li>a {
+    margin-right: 2px;
+    color: #ffffff;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    }
+    &li.nav {
+    float: right;
+    }
+
+} 
+/* ---------- End lists styling ---------- */
+
+
+
+
+.logo {
+    margin-top: 15px;
+    position: absolute;
+    z-index: 8;
+}
+
+.carousel-caption {
+    margin-bottom: 220px;
+}
+
+.overlay {
+    background-color: rgba(48, 40, 79 , 0.85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+/* --------- Anchors styling -------- */
+a.Learn.more {
+    position: relative;
+    top: 100px;
+    border: 1px solid cyan;
+    color: cyan;
+    padding: 13px 15px 13px 15px;
+    font-family: Myriad Pro Regular;
+    font-size: 16px;
+    transition: .5s ease;
+    font-weight: bold;
+
+    &:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: cyan;
+    transition: 0.5s ease;
+    color: #30235f ;;
+    text-shadow: none;
+    border-color: cyan;
+   } 
+}
+a.teams.Learn.more {
+    margin-left: 590px;
+}
+/* --------- End Anchors styling -------- */
+
+
+
+
+
+
+/* --------- Styling images ---------- */
+
+img.logo {
+    display: block;
+    margin-top: 70px;
+    margin: 145px 0 0 55px ;
+    display: block;
+
+}
+
+img.buildings {
+    margin-top: 180px;
+}
+
+
+/* --------- End Styling images ---------- */
+
+
+
+
+
+/* ----------- Styling paragraphs ----------- */
+
+p.second.paragraph {
+    margin-top: 30px;
+    margin-bottom: -60px ;
+}
+
+p.carousel-text {
+    display: block;
+    font-size: 14px;
+}
+p.play-video {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+p.title {
+    text-align: center;
+    font-family: myriad pro;
+}
+p.title::after{
+    content: "X";
+    position: relative;
+    display: block;
+    text-shadow: none;
+    color: transparent;
+    border-bottom: 1px solid #00e0d0;
+    width: 50px;
+    margin: auto;
+    bottom: 15px;
+    padding-top: 10px; 
+}
+p.title-bottom {
+    text-align: center;
+    margin-bottom: -65px;
+}
+
+
+/* ----------- End  Styling paragraphs ----------- */
+
+
+
+
+/* ------- Styling rows ---------- */
+.row { 
+    margin-bottom: 75px;
+
+    ::before{
+    border-bottom: 1px solid black; 
+    }
+}
+
+.top.row::after{
+    content: "X";
+    position: relative;
+    display: block;
+    text-shadow: none;
+    color: transparent;
+    border-bottom: 1px solid #00e0d0;
+    width: 50px;
+    margin: auto;
+    bottom: 15px;
+    padding-top: 10px; 
+}
+
+/* -------- End styling rows ---------- */
+
+
+
+/* ------- overlay styling ------- */
+.overlay {
+    background-color: rgba(48, 40, 79, 0.85);
+    width: 100%;
+    height: 710px;
+    position: absolute;
+    z-index: 1;
+    color:white;
+}
+.overlay.video {
+    margin-top: 180px;
+    height: 550px;
+}
+/* ------- End overlay styling --------  */
+
+
+.content-teams {
+    border: 1px solid grey;
+    margin-right: 21px;
+    font-size: 13px;
+}
+
+.main-video {
+    padding: 200px 0px;
+    overflow: hidden;
+}
+.border_devider {
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+    overflow: hidden;
+    margin: 20px 0px;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .nav.nav-tabs {
+        display: none;
+    }
+}
